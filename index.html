@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Pancake sniping bot</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+    #pancakeimage {
+        position: absolute;
+        left: 35%; /* relative to nearest positioned ancestor or body element */
+        top: 10%; /*  relative to nearest positioned ancestor or body element */
+        transform: translate(-50%, -50%); /* relative to element's height & width */
+    }
+
+    #paragraph {
+        position: absolute;
+        left: 35%; /* relative to nearest positioned ancestor or body element */
+        top: 25%; /*  relative to nearest positioned ancestor or body element */
+        transform: translate(-50%, -50%); /* relative to element's height & width */
+    }
+
+    #buttondiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    #textbox {
+        position:relative;    
+        float:right;             
+        list-style-type:none;
+    }
+
+    #labelid {
+        display: block;
+        float: left;
+        outline: 2px solid brown;
+        width: 500px;
+        height: 800px;
+    }
+
+    #checkdiv {
+        position: absolute;
+        left: 35%; /* relative to nearest positioned ancestor or body element */
+        top: 70%; /*  relative to nearest positioned ancestor or body element */
+        transform: translate(-50%, -50%); /* relative to element's height & width */
+    }
+
+    #approveh1 {
+        position: absolute;
+        left: 30%; /* relative to nearest positioned ancestor or body element */
+        top: 70%; /*  relative to nearest positioned ancestor or body element */
+        transform: translate(-50%, -50%); /* relative to element's height & width */
+    }
+
+    #tokeninput {
+        position: absolute;
+        left: 35%; /* relative to nearest positioned ancestor or body element */
+        top: 30%; /*  relative to nearest positioned ancestor or body element */
+        transform: translate(-50%, -50%); /* relative to element's height & width */
+    }
+
+    #calculategasinput {
+        position: absolute;
+        left: 24%; /* relative to nearest positioned ancestor or body element */
+        top: 50%; /*  relative to nearest positioned ancestor or body element */
+        transform: translate(-50%, -50%); /* relative to element's height & width */
+    }
+
+    #calculategasform {
+        position: absolute;
+        left: 35%; /* relative to nearest positioned ancestor or body element */
+        top: 50%; /*  relative to nearest positioned ancestor or body element */
+        transform: translate(-50%, -50%); /* relative to element's height & width */
+    }
+
+    #calculatelabel {
+        position: absolute;
+        left: 24%; /* relative to nearest positioned ancestor or body element */
+        top: 45%; /*  relative to nearest positioned ancestor or body element */
+        transform: translate(-50%, -50%); /* relative to element's height & width */
+        border-style: solid;
+        border-color: black;
+        width: 200px;
+        height: 30px;
+    }
+
+</style>
+<script src=""></script>
+<body>
+
+
+    <input id="tokeninput" placeholder="Enter token" autofocus>
+
+    <div id="textbox">
+        <textarea id="labelid">Bot Standby</textarea>
+    </div>
+
+    <div>
+        <img src="pancakeswap images.png" alt="Italian Trulli" id="pancakeimage">
+        <p id="paragraph">Automated dex sniping bot v1.0</p>
+    </div>
+
+    <div>
+        <h3>Enter target address:</h3>
+        <form id="targetform">
+            <input id="targetinput" placeholder="Address" autofocus>
+        </form>
+    </div>
+
+    <div>
+        <h3>Enter Your address:</h3>
+        <form id="addressform">
+            <input id="useraddressinput" placeholder="Address" autofocus>
+        </form>
+    </div>
+
+    <div>
+        <h3>Enter your private key:</h3>
+        <form id="privatekeyform">
+            <input id="privatekeyinput" placeholder="private key" autofocus>
+        </form>
+    </div>
+
+    <div>
+        <h3>Enter profit in %:</h3>
+        <form id="profitform">
+            <input id="profitinput" placeholder="profit in %" autofocus>
+        </form>
+    </div>
+
+    <div>
+        <h3>Enter price in BNB:</h3>
+        <form id="priceform">
+            <input id="priceinput" placeholder="Price: 0.1" autofocus>
+        </form>
+    </div>
+
+    <div>
+        <h3>Enter Slippage:</h3>
+        <form id="slippageform">
+            <input id="slippageinput" placeholder="slippage" autofocus>
+        </form>
+    </div>
+
+    <div>
+        <h3>Enter GAS limit:</h3>
+        <form id="gasform">
+            <input id="gasinput" placeholder="Gas LIMIT: example: 210000" autofocus>
+        </form>
+    </div>
+
+    <div>
+        <h3>Enter GWEI AMOUNT:</h3>
+        <form id="gweiform">
+            <input id="gweiinput" placeholder="Gwei amount: example: 5" autofocus>
+        </form>
+    </div>
+
+    <div>
+        <h3>Enter Time in seconds to force sell:</h3>
+        <form id="timeform">
+            <input id="timeinput" placeholder="Time in seconds" autofocus>
+        </form>
+    </div>
+
+    <div id="buttondiv">
+        <form id="buttonidstart">
+            <button type="submit" id="startbtn">Start</button>
+        </form>
+
+        <form id="buttonidstop">
+            <button type="submit">Stop</button>
+        </form>
+
+        <form id="buttoniddelete">
+            <button type="submit">DeleteSave</button>
+        </form>
+
+        <form id="buttonupdate">
+            <button type="submit">Update credentials</button>
+        </form>
+
+        <div id="approveh1">
+            <p>Approve WBNB:</p>
+        </div>
+
+        <label id="calculatelabel"></label>
+        <input id="calculategasinput" placeholder="Enter amount of gas" autofocus>
+        <form id="calculategasform">
+            <button type="submit">Calculate</button>
+        </form>
+
+        <div id="checkdiv">
+            <input type="checkbox" id="myCheck">
+        </div>
+    </div>
+</body>
+<script src="pancakesnipe.js"></script>
+</html>

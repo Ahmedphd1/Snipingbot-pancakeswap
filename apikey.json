@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "snipingbot-b8435",
+  "private_key_id": "dceb9d595e43d4766d7c5c4780927d21e086a2f1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2qufDUtvuEY1H\ntnbmeS2CN9FFYtbxkLxTuOGX+P9KZXt5R5F3s9PekZOOk2juoGoKZSOhKyZ7nXKM\nD0aEUNw6gIvDtprLJivcZagzHlC1qEoLL/WUk6AnKW35E23opN2JMRBWNGrlEnAG\ngoFayg78qJyPxkCrkfPAfIclmWJhxcrm4175KO0V8PwGQy8OkyV8RP9zU+kilTyo\nHm+9Zq6MYYl2upnF756dFlQM4thxMH8xWptalIpUnyJh+L2u3Yw2yS9LbKVCmYZt\noJZP+faKOcti1VPnc1RhonWoGY4z8E3Heo6aBs8SvBdoLuYrpehWBXOei+Qn1YWx\ny8tT7CyhAgMBAAECggEATgxkDn7+3Y++T9/UmdE48qSq0/zRXlG7RgJ+0ZJgcgc+\nZKmBrCW35ydIZujxMtRzupFQUfK/9J1nbhSwyqRKFO0LysnhBd//aaI95emUDqoj\nSPhq89rH2TPIe14j3f1jctT15/9plQr1trJYVtRy5t2cV4ob47Lu9VW/4P7SnHdP\nqojtj9bYqxsmJsopzFgKMSoqOUF9oOChZQq8+N5YboH6u2EbqDmYCYG61P1WVYtn\nUenbmFKywU087jlZP31SkULhoH4nFYQVbvKFhRUaPEfAXdqd+GQs7WPXbIihVgn+\nExStWPMgkjWZDkfLBdc9qkQJrPVWFFaYKvYeIadIqQKBgQDiERpljcySzX9QRv/C\nApkNL0eLBtIjvVkDLntd0qsdiP/Bil7AqEo4Gya+HxdI6qyw75IvD9gDqwZStj4B\n+e2KRrip6CTwhf/OP5R+go6UwveBrYNB84HS3d31CRCtE5aUAvdesb2HLIHUrS0A\nV/0p8ojxmVPDZyWQTSwkAV9cmwKBgQDO2rdm75uvamZcEHF6oKFyfJlx1TAReTe+\nCkP0UWyVjugRj3m3IZWG88uGlOnBH3wQQGtJZ1SfyQcjIDLUfib4UJfMnH54v6Su\ncXGomas8whD4DcDWs8OG4ELp04dalWUnAdTcE6cMNPC+61f4BeurTeB80YnLftbK\nPvSFE+5pcwKBgQDhfoPhBncne7lhfuCASg0WfLGVOKGFqspOBSBjLs8mb9AE4puu\n+m7F1jdn7yVPw12sQ9uB/ADRb9eny0bAu+a4ReDPAdNO46qMtRjOtDW6p1swy72g\nnF9D0bEjSP6MVXyeePL8TripS7jZRkAcFqhdHiKBMxq9T3bFoGTGKWRQvwKBgHWq\ntOk5I7aFL/Tu5Z58AVq+xgqa2t0Vtz/DVySDrODmidxzYSlrUUOTKxNDYjUZU9lq\ny5zVyq2aDRVOG5wEpuZZ8f/ShZ7qZSNWJPFjeKT3P+/a4vc/CtqOd4HLchN1KDUo\nNY17IGsxMkFoXoIX3Bd2FVzrVRcM7+HcLfwFenlBAoGAXP2N1mVb2M/qm9iGeoWA\nkbNe0uoGKlwbEGsErFoOnh5AMyPqCWVNFpy4cu6B6g/2beWzA8pwLFHSSyr00Qx7\nfDj2IsdRljSt43f+RaOYihGGLps5xjIUryg225xRHg7Zx/zPaXurY4eF04S6+MaN\nciRyVJtCPqrtU5h2rGNMD5o=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-rsdas@snipingbot-b8435.iam.gserviceaccount.com",
+  "client_id": "110404529156320614908",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-rsdas%40snipingbot-b8435.iam.gserviceaccount.com"
+}

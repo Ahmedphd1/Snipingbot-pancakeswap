@@ -1,0 +1,25 @@
+{
+  "name": "snipingbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mainwindow.js",
+  "dependencies": {
+    "electron": "^13.0.1",
+    "electron-fetch": "^1.7.3",
+    "ethers": "^5.2.0",
+    "firebase-admin": "^9.9.0",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC"
+}
